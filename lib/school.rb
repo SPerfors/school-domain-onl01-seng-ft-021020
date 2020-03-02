@@ -8,7 +8,8 @@ class School
   end
   
   def add_student(name, grade)
-    @roster.push(name, grade)
+    @roster = roster 
+    roster.push(name, grade)
   end
   
 end
